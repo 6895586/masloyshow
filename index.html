@@ -97,78 +97,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3>Наши Проекты</h3>
 					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
 				</div>
-				<!-- test wrapper -->
-				<div class="content_row_wrapper  fullwidth" style="padding-bottom:100px;padding-left:50px;padding-right:50px;">
-					<div class="vc_col-sm-12 wpb_column vc_column_container">
-						<div class="wpb_wrapper">
 
-							<div class="wpb_raw_code wpb_content_element wpb_raw_html">
-								<div class="wpb_wrapper">
-									<div class="bx-wrapper" style="max-width: 287px; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 290px;"><ul class="bxslider" style="width: 1015%; position: relative; transition-duration: 0.2s; transform: translate3d(-851px, 0px, 0px);"><li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;" class="bx-clone">
-										<a class="izo9"></a>
-										<p class="pname">Юлия Жавронок</p>
-										<p class="pdol">Главный бухгалтер</p>
-									</li>
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;">
-											<a class="izo1"></a>
-											<p class="pname">Сергей Тризно</p>
-											<p class="pdol">Директор компании</p>
-										</li>
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;">
-											<a class="izo5"></a>
-											<p class="pname">Дмитрий Ломако</p>
-											<p class="pdol">Руководитель креативной группы</p>
-										</li>
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;">
-											<a class="izo3"></a>
-											<p class="pname">Алина Харюк</p>
-											<p class="pdol">Руководитель корпоративных проектов</p>
-										</li>
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;">
-											<a class="izo4"></a>
-											<p class="pname">Екатерина Нигириш</p>
-											<p class="pdol">Руководитель корпоративных проектов</p>
-										</li>
-
-
-
-
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;">
-											<a class="izo8"></a>
-											<p class="pname">Ольга Игнатенко</p>
-											<p class="pdol">Руководитель специальных проектов</p>
-										</li>
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;">
-											<a class="izo7"></a>
-											<p class="pname">Валерия Зарембо</p>
-											<p class="pdol">Руководитель специальных проектов</p>
-										</li>
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;">
-											<a class="izo6"></a>
-											<p class="pname">Павел Савич</p>
-											<p class="pdol">Ведущий дизайнер</p>
-										</li>
-
-
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;">
-											<a class="izo9"></a>
-											<p class="pname">Юлия Жавронок</p>
-											<p class="pdol">Главный бухгалтер</p>
-										</li>
-
-										<li style="float: left; list-style: none; position: relative; width: 277px; margin-right: 3px;" class="bx-clone">
-											<a class="izo1"></a>
-											<p class="pname">Сергей Тризно</p>
-											<p class="pdol">Директор компании</p>
-										</li></ul></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-				<!-- end of wrapper -->
 
 
 				<!---- start-features-grids---->
@@ -267,7 +196,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<!----start-portfolio----->
 		<div id="port" class="portfolio portfolio-box">
 				<div class="head text-center">
-					<h3><span> </span> Portofolio</h3>
+					<h3>Шоу Магазин</h3>
 					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
 				</div>
 				<!----start-portfolio---->
@@ -278,7 +207,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						$(function () {
 							var filterList = {
 								init: function () {
-								
+
 									// MixItUp plugin
 									// http://mixitup.io
 									$('#portfoliolist').mixitup({
@@ -288,28 +217,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										easing: 'snap',
 										// call the hover effect
 										onMixEnd: filterList.hoverEffect()
-									});				
-								
+									});
+
 								},
 								hoverEffect: function () {
 									// Simple parallax effect
 									$('#portfoliolist .portfolio').hover(
 										function () {
 											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');
 										},
 										function () {
 											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-										}		
-									);				
-								
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');
+										}
+									);
+
 								}
-					
+
 							};
 							// Run the show!
 							filterList.init();
-						});	
+						});
 					</script>
 					<!----//End-portfolio-script----->
 					<ul id="filters" class="clearfix">
@@ -318,7 +247,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li><span class="filter" data-filter="card">Print</span></li>
 					</ul>
 					<div id="portfoliolist">
-					<div class="portfolio logo1 mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
+					<div class="portfolio app mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper">	
 							<div class="port-grid">
 								<div class="port-grid-text">
@@ -326,7 +255,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<label class="arrow-icon1"> </label>
 								</div>
 								<div class="port-grid-pic block last">
-									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+									<a href="#" class="b-link-stripe   thickbox">
 								     <img src="images/p1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt=""/></h2>
 								  	</div></a>
 								</div>
@@ -342,7 +271,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<label class="arrow-icon1 arrow-icon1-l"> </label>
 								</div>
 								<div class="port-grid-pic block last">
-									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+									<a href="#" class="b-link-stripe   thickbox">
 								     <img src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt=""/></h2>
 								  	</div></a>
 								</div>
@@ -358,7 +287,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<label class="arrow-icon1 arrow-icon1-l"> </label>
 								</div>
 								<div class="port-grid-pic block last">
-									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+									<a href="#" class="b-link-stripe  thickbox">
 								     <img src="images/p3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt=""/></h2>
 								  	</div></a>
 								</div>
@@ -370,7 +299,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="portfolio-wrapper">		
 							<div class="port-grid">
 								<div class="port-grid-pic block last">
-									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+									<a href="#" class="b-link-stripe   thickbox">
 								     <img src="images/p4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt=""/></h2>
 								  	</div></a>
 								</div>
@@ -386,7 +315,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="portfolio-wrapper">		
 							<div class="port-grid">
 								<div class="port-grid-pic block last">
-									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+									<a href="#" class="b-link-stripe   thickbox">
 								     <img src="images/p5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt=""/></h2>
 								  	</div></a>
 								</div>
@@ -402,7 +331,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="portfolio-wrapper">		
 							<div class="port-grid">
 								<div class="port-grid-pic block last">
-									<a href="#" class="b-link-stripe b-animate-go  thickbox">
+									<a href="#" class="b-link-stripe   thickbox">
 								     <img src="images/p6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/plus.png" alt=""/></h2>
 								  	</div></a>
 								</div>
@@ -453,37 +382,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 66px;">
 							<ul class="client_list" style="width: 815%; position: relative; transition-duration: 30s; transform: translate3d(-1140px, 0px, 0px); transition-timing-function: linear;">
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;">
-									<img src="/images/arrow-icon1.png" alt="Streamline" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="Streamline" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;">
-									<img src="/images/arrow-icon1.png" alt="fabula" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="fabula" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;">
-									<img src="/images/arrow-icon1.png" alt="Tissot" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="Tissot" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;">
-									<img src="/images/arrow-icon1.png" alt="life" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="life" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;">
-									<img src="/images/arrow-icon1.png" alt="Бонжур" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="Бонжур" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;">
-									<img src="/images/arrow-icon1.png" alt="ergo" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="ergo" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;" class="bx-clone">
-									<img src="/images/arrow-icon1.png" alt="Streamline" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="Streamline" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;" class="bx-clone">
-									<img src="/images/arrow-icon1.png" alt="fabula" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="fabula" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;" class="bx-clone">
-									<img src="/images/arrow-icon1.png" alt="Tissot" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="Tissot" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;" class="bx-clone">
-									<img src="/images/arrow-icon1.png" alt="life" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="life" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;" class="bx-clone">
-									<img src="/images/arrow-icon1.png" alt="Бонжур" style="height: auto;"></li>
+									<img src="images/arrow-icon1.png" alt="Бонжур" style="height: auto;"></li>
 								<li style="float: left; list-style: none; position: relative; width: 170px; margin-right: 20px;" class="bx-clone">
-									<img src="/images/arrow-icon1.png" alt="ergo" style="height: auto;"></li></ul>
+									<img src="images/arrow-icon1.png" alt="ergo" style="height: auto;"></li></ul>
 						</div></div></div>
 
 
 
 
 				<div class="footer-left">
-					<a href="#"><img src="images/footer-logo.png" title="mabur" /></a>
-					<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+					<p>MasloyShow (c)</p>
+					<!--<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>-->
 				</div>
 				<script type="text/javascript">
 				$(document).ready(function() {
@@ -498,14 +427,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					
 					$().UItoTop({ easingType: 'easeOutQuart' });
 
-					$('.client_list').bxSlider({
-  minSlides: 4,
-  maxSlides: 4,
-  slideWidth: 170,
-  slideMargin: 10,
-  ticker: true,
-  speed: 6000
-});
+					var e = $(".client_list li").length;
+    $(".client_list").bxSlider({
+        minSlides: 2,
+        maxSlides: 6,
+        slideWidth: 170,
+        slideMargin: 20,
+        ticker: !0,
+        speed: 5e3 * e
+	});
+
 					
 				});
 			</script>

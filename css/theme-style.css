@@ -867,8 +867,10 @@ nav a#pull {
 	display:inline-block;
 }
 .footer-left p{
-	color: #FFF;
+	color: #FFFF00;
 	margin:0.8em 0 0;
+	font-size: 2.85em;
+   	font-weight: bold;
 }
 .footer-left p a{
 	color:#00AEEF;
@@ -1334,8 +1336,13 @@ div.col-md-6.test-monial-time-line-left {
 	width: 70px;
 	height: 70px;
 }
+
+
 .footer-left p {
    margin: 10px 0;
+   font-size: 8.85em;
+   	color: white;
+   	font-weight: bold;
 }
 .footer-right span label {
 	margin-top: 1em;
