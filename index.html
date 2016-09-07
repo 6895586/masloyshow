@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 <title>MABUR Bootstarp Website Template | Home :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!--<link href="css/common.css" rel='stylesheet' type='text/css' />-->
+	<link href="css/v-shortcodes.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 	<script src="js/jquery.bxSlider.min.js"></script>
@@ -103,8 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<!---- start-features-grids---->
 				<div class="features-grids text-center">
 					<div class="col-md-3 features-grid">
-						<span class="fea-icon1"><i><img src="images/p7.jpg"></i></span>
-							<!--<i class="fa fa-star"> </i> </span>-->
+						<span class="fea-icon1"><i class="fa fa-star"> </i> </span>
 						<h3><a href="#">Premium</a></h3>
 						<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean.</p>
 					</div>
@@ -350,27 +349,73 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="clearfix"> </div>
 		<!----//End-portfolio----->
 			<!----start-contact---->
-				<div id="contact" class="contact"> 
-					<div class="contact-map">
-						<iframe src="https://maps.google.com/maps?t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=embed&amp;q=United+States&amp;ie=UTF8&amp;hq=&amp;hnear=United+States&amp;ll=37.359243,-91.525727&amp;spn=0.409036,0.837021&amp;z=11&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=embed&amp;q=United+States&amp;ie=UTF8&amp;hq=&amp;hnear=United+States&amp;ll=37.359243,-91.525727&amp;spn=0.409036,0.837021&amp;z=11&amp;source=embed"> </a></small>
-					</div>
-						<div class="contact-grids">
-							<div class="col-md-6 contact-left">
-								<h3><span> </span> Contact</h3>
-								<p><i class="fa fa-map-marker"> </i> Jl. Ringroad Utara no 17AB, Yogyakarta, 55282</p>
-								<form>
-									<input type="text" value="Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-									<input type="text" value="info@mail.com *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email@domain.com *';}">
-									<textarea onfocus="if(this.value == 'Message *') this.value='';" onblur="if(this.value == '') this.value='Message *;">Message *</textarea>
-									<p class="conditions"> <label><span>*</span>scelerisque sit amet felis sit nunc.</label></p>
-									<span class="submit-btn"><input type="submit" value="Send"></span>
+				<div id="contact" class="contact">
+					<div class="container">
+						<div class="row center">
+							<div class="col-sm-8 col-sm-offset-2">
+								<div class="head text-center">
+									<h3>Контакты</h3>
+									<p>+375 29 689 55 86</p>
+								</div>
+								<div class="horizontal-break"></div>
+
+								<div class="v-spacer col-sm-12 v-height-small"></div>
+
+
+
+								<form action="#" method="post">
+									<div class="row">
+										<div class="form-group">
+											<div class="col-sm-4">
+												<label>Your name <span class="required">*</span></label>
+												<input type="text" value="" maxlength="100" class="form-control" name="name" id="name">
+											</div>
+											<div class="col-sm-4">
+												<label>Your email address <span class="required">*</span></label>
+												<input type="email" value="" maxlength="100" class="form-control" name="email" id="email1">
+											</div>
+											<div class="col-sm-4">
+												<label>Website</label>
+												<input type="text" value="" maxlength="100" class="form-control" name="website" id="website">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group">
+											<div class="col-sm-12">
+												<label>Сообщение <span class="required">*</span></label>
+												<textarea maxlength="1000" rows="5" class="form-control" name="comment" id="Textarea1"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-12">
+											<br>
+											<button name="submit" type="submit" id="sendmesage" class="btn v-btn no-three-d">Send Message</button>
+										</div>
+									</div>
 								</form>
+
 							</div>
-							<div class="col-md-6 contact-right">
-								<span class="pin-map"> </span>
-							</div>
-							<div class="clearfix"> </div>
 						</div>
+
+						<div class="row">
+							<div class="v-spacer col-sm-12 v-height-small"></div>
+						</div>
+
+						<div class="row center">
+							<ul class="social-icons large center">
+								<li class="twitter"><a href="http://www.twitter.com/#" target="_blank"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li>
+								<li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
+								<li class="youtube"><a href="#" target="_blank"><i class="fa fa-youtube"></i><i class="fa fa-youtube"></i></a></li>
+								<li class="vimeo"><a href="http://www.vimeo.com/#" target="_blank"><i class="fa fa-vimeo-square"></i><i class="fa fa-vimeo-square"></i></a></li>
+								<li class="tumblr"><a href="http://tumblr.tumblr.com/" target="_blank"><i class="fa fa-tumblr"></i><i class="fa fa-tumblr"></i></a></li>
+								<li class="skype"><a href="skype:#" target="_blank"><i class="fa fa-skype"></i><i class="fa fa-skype"></i></a></li>
+								<li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin"></i><i class="fa fa-linkedin"></i></a></li>
+								<li class="googleplus"><a href="#" target="_blank"><i class="fa fa-google-plus"></i><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			<!----//End-contact---->
 		<!----start-footer---->
